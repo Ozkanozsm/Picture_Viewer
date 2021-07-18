@@ -143,6 +143,9 @@ namespace ffgui
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All file" +
+    "s (*.*)|*.*";
+            this.openFileDialog1.Title = "Select a picture file";
             // 
             // Form1
             // 
