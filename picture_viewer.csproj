@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A3863821-510B-49C7-B46A-061E3C4A8DC5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ffgui</RootNamespace>
-    <AssemblyName>ffgui</AssemblyName>
+    <RootNamespace>picture_viewer</RootNamespace>
+    <AssemblyName>picture_viewer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
