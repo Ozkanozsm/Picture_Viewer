@@ -19,7 +19,7 @@ namespace picture_viewer
 
         private void showButton_Click(object sender, EventArgs e)
         {
-            if (openFileDialog1.ShowDialog()== DialogResult.OK)
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.Load(openFileDialog1.FileName);
             }
@@ -32,6 +32,10 @@ namespace picture_viewer
 
         private void backgroundButton_Click(object sender, EventArgs e)
         {
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.BackColor = colorDialog1.Color;
+            }
 
         }
 
