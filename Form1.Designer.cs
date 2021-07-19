@@ -1,5 +1,5 @@
 ﻿
-namespace ffgui
+namespace picture_viewer
 {
     partial class Form1
     {

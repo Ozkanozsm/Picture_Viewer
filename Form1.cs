@@ -37,7 +37,7 @@ namespace picture_viewer
 
         private void clearButton_Click(object sender, EventArgs e)
         {
-
+            pictureBox1.Image = null;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
