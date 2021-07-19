@@ -27,7 +27,7 @@ namespace picture_viewer
 
         private void closeButton_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void backgroundButton_Click(object sender, EventArgs e)
@@ -46,7 +46,14 @@ namespace picture_viewer
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (checkBox1.Checked)
+            {
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            else
+            {
+                pictureBox1.SizeMode = PictureBoxSizeMode.Normal;
+            }
         }
     }
 }
